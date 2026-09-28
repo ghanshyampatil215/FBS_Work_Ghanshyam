@@ -11,7 +11,7 @@
 package p1;
 
 public class Pattern {
-
+  //UpperCase
 	public static void main(String[] args) {
 		
 		for (int i = 0; i<5; i++) {
@@ -20,7 +20,7 @@ public class Pattern {
 			}
 			System.out.println();
 		}
-		
+	//LowerCase	
 		for (int i = 3; i>=0; i--) {
 			for(int j = i; j<5; j++) {
 				System.out.println((char)('A' +j));
